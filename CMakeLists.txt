@@ -5,7 +5,7 @@ project(App)
 
 # Sources
 file(GLOB_RECURSE SOURCES sources/*.cpp)
-file(GLOB_RECURSE HEADERS includes/*.hpp includes/*.h)
+file(GLOB_RECURSE HEADERS includes/*.hpp includes/*.h sources/*.hpp sources/*.h)
 
 # Executable
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
@@ -15,6 +15,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 17 CXX_STANDARD_RE
 
 # Includes
 target_include_directories(${PROJECT_NAME} PUBLIC includes)
+target_include_directories(${PROJECT_NAME} PUBLIC sources)
 
 # linker flags
 add_link_options(-lmingw32 -lgdi32 -luser32 -lkernel32 -ladvapi32 -lshell32 -lgcc -lmoldname -lmingwex -lmsvcrt -lwinspool -lcomdlg32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32)
