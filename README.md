@@ -1,4 +1,4 @@
-# SFML skeleton
+# 🦴 SFML skeleton
 
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-0052cf)
@@ -17,28 +17,24 @@ This repository is a **skeleton C++ project**.
 
 <br>
 
-# Summary
+# 📋 Summary
 
-* **[Summary](#summary)**
-* **[Install](#install)**
-	* [Windows](#windows)
-		* [What you need](#what-you-need)
-		* [How to compile it?](#how-to-compile-it)
-	* [Unix](#unix)
-		* [What you need](#what-you-need-1)
-		* [How to compile it?](#how-to-compile-it-1)
-	* [Using VS Code](#using-vs-code-recommended) *(recommended)*
-		* [What you need](#what-you-need-2)
-		* [How to compile it?](#how-to-compile-it-2)
-* **[Credits](#credits)**
+* **[📋 Summary](#-summary)**
+* **[🛠️ Install](#%EF%B8%8F-install)**
+	* [🪟 Windows](#-windows)
+	* [🐧 Unix](#-unix)
+	* [💎 Using VS Code](#-using-vs-code-recommended) *(recommended)*
+* **[🙏 Credits](#-credits)**
 
 <br>
 
-# Install
+# 🛠️ Install
 
-I recommend using **[VS Code](#using-vs-code-recommended)**.
+I recommend using **[VS Code](#-using-vs-code-recommended)**.
 
-## Windows
+<br>
+
+## 🪟 Windows
 
 ### What you need
 
@@ -68,7 +64,9 @@ I recommend using **[VS Code](#using-vs-code-recommended)**.
 
 *(Type the first command when you want to compile and the second when you want to run the program)*
 
-## Unix
+<br>
+
+## 🐧 Unix
 
 ### What you need
 
@@ -94,7 +92,9 @@ The easiest way is to open a terminal and type : `sudo apt update` and `sudo apt
 
 *(Type the first command when you want to compile and the second when you want to run the program)*
 
-## Using VS Code *(recommended)*
+<br>
+
+## 💎 Using VS Code *(recommended)*
 
 ### What you need
 
@@ -125,6 +125,6 @@ The easiest way is to open a terminal and type : `sudo apt update` and `sudo apt
 
 <br>
 
-# Credits
+# 🙏 Credits
 
 * **[Angel Uriot](https://github.com/angeluriot) :** Creator of the skeleton project.
