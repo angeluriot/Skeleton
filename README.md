@@ -1,4 +1,4 @@
-# 🦴 SFML skeleton
+# 🦴 Skeleton
 
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-0052cf)
